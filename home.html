@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bins Map</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="tab" id="mapTab">Map</div>
+            <div class="tab"id="editorTab">Info File Editor</div>
+            <div class="tab" id="treeTab">Database Tree</div>
+            <button class="logout-button"id="logoutButt">Logout</button>
+        </div>
+        <div id="map"></div>
+    </div>
+
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <script src="navbar.js" type="module"></script>
+    <script src="getData.js" type="module"></script>
+</body>
+
+</html>
